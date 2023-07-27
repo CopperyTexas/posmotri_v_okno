@@ -39,6 +39,7 @@ ol {
 .page {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .button {
   appearance: none;
@@ -93,6 +94,8 @@ ol {
 }
 .result__video-container {
   position: relative;
+  margin-bottom: 16px;
+  max-height: 386px;
 }
 .result__video {
   position: relative;
@@ -101,6 +104,8 @@ ol {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  margin-bottom: 16px;
+  max-height: 386px;
 }
 
 .content__list-item:not(:last-of-type) {
