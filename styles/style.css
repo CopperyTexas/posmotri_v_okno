@@ -161,6 +161,7 @@ ol {
   margin-bottom: 6px;
 }
 .visually-hidden {
+  position: absolute;
   inline-size: 1px;
   block-size: 1px;
   overflow: hidden;
