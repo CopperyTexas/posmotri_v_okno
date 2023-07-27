@@ -91,13 +91,8 @@ ol {
   flex-direction: column;
   gap: 26px;
 }
-.result__video-container {
-  position: relative;
-  padding-bottom: 54.37%;
-  margin-bottom: 16px;
-}
+
 .result__video {
-  position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
